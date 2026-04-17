@@ -24,3 +24,13 @@ type ScoredTask = {
     Reason      : string
     BurnoutFlag : bool
 }
+
+type ReasonMessages = {
+    DeadlinePassed    : string
+    DeadlineUnder24h  : string
+    DeadlineUnder3d   : string
+    NoDeadline        : string
+    HighImportance    : string
+    DifficultTask     : string
+    HighEnergy        : string
+}
