@@ -1,0 +1,19 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Node.js
+node_modules/
+dist/
+.vite/
+
+# Logs
+*.log
+websharper.log
+
+# OS
+.DS_Store
+Thumbs.db
